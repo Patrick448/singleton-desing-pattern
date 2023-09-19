@@ -3,8 +3,8 @@ package database;
 public class DatabaseConnection {
 
     private static DatabaseConnection instance = new DatabaseConnection();
-    private String databaseUrl = "localhost:80";
-    private String databasePassword = "123456";
+    private String databaseUrl = "";
+    private String databasePassword = "";
     private DatabaseConnection(){
 
     }
